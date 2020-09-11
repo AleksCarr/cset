@@ -1,0 +1,7 @@
+ For me, this program so far is a little too fast to learn everything that needs to be learned but compared to other classes he gives resources to help you if you need. Also, you can talk to the second years if you need help. So, it is a little fast but with so much help if confused. Function are a useful tool to organize large programs because if you want to do the same thing over and over again with different calls it would be better to do a function and it looks a lot better than doing a bunch of if statements and making the large code even larger than doing it with functions. Scope has different types of scope. They are global and local. With global you can access it everywhere in your code. With local it is only accessible where you define it. That means if you define it in curly brackets it will work until you get out of the curly brackets. He uses an analogy of a zookeeper with the scope.  He does this by explaining that with global the zookeeper can go to any cage he wants. Where with local only what is supposed to be in the cage is supposed to be there. Or as you said it what is created in the cage is what is allowed in that like the lion cannot go in the hippos. With local there are 2 different rules which are lexical and block. With lexical only functions can create new scopes where curly brackets create new scopes. 
+`var` x = 2
+
+  let x = 3{
+}  
+  console.log(x)
+  with this it will output 2 since it it outside the brackets.

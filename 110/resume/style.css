@@ -1,3 +1,62 @@
+*{
+  text-align:center;
+}
+
+p.grey{
+  color: grey;
+}
+
+li{
+  list-style-position:inside;
+}
+
+.circle{
+  list-style-type: circle;
+}
+
+.start{
+  background-color:lightgrey;
+  height: 100px
+}
+
+.objective,
+.leadership,
+.basic,
+.experience,
+.communication{
+  background-color: lightskyblue;
+  padding: 20px 10px 20px 10px;
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.job,
+.keyR{
+background-color: lightseagreen;
+  padding: 20px 10px 20px 10px;
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  font-weight: bolder;
+}
+
+.keyS,
+.Education{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+div{
+background-color: beige;
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 body{
   font-size: 15px;
   padding: 20px 10px 20px 10px;
@@ -11,7 +70,7 @@ i{
   padding: 20px 10px 20px 10px;
   border: brown 1px solid;
   margin: 20px auto;
- 
+
   display: block;
   width: 75%;
 }
@@ -25,46 +84,4 @@ i{
   border: 2px dashed #808080;
   vertical-align: bottom;
   filter:contrast(200%);
-}
-
-h2{
-  background-color: lightskyblue;
-  padding: 20px 10px 20px 10px;
-  margin: 20px auto;
-  display: block;
-  width: 50%;
-}
-
-h4{
-background-color: lightseagreen;
-  padding: 20px 10px 20px 10px;
-  margin: 20px auto;
-  display: block;
-  width: 50%;
-}
-
-div{
-background-color: beige;
-  margin: 20px auto;
-  display: block;
-  width: 50%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-
-
-.start{
-  background-color:lightgrey;
-  height: 100px 
-}
-
-li{
-  list-style-position:inside;
-}
-
-p.grey{
-  color: grey;
-}
-
-*{
-  text-align:center;
 }
